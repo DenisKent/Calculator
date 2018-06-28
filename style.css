@@ -1,0 +1,14 @@
+.container{
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.container .output, .container .workings {
+  grid-column-start: span 4;
+  justify-self: end;
+  height: 30px;
+}
+.container .large-button {
+  grid-column-start: span 2;
+}
