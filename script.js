@@ -1,4 +1,4 @@
-let buttons = document.querySelectorAll('button');
+let buttons = document.querySelectorAll("button");
 let sum = 0;
 let output = "";
 let workings = "";
